@@ -33,7 +33,7 @@ public class HttpObjectAggregationConfigurator<R extends FullHttpMessage, W> imp
 
     public static final String AGGREGATOR_HANDLER_NAME = "http-aggregator";
 
-    public static final int DEFAULT_CHUNK_SIZE = 1048576; // 1 MB
+    public static final int DEFAULT_CHUNK_SIZE = 1048576*100; // 100 MB
 
     private final int maxChunkSize;
 
