@@ -15,16 +15,17 @@
  */
 buildscript {
   repositories { jcenter() }
-  dependencies { classpath 'com.netflix.nebula:gradle-rxjava-project-plugin:2.+' }
+  dependencies { classpath 'com.netflix.nebula:gradle-rxjava-project-plugin:3.+' }
 }
 
 description = 'RxNetty: Reactive Extensions for Netty'
 
 
-apply plugin: 'rxjava-project'
+apply plugin: 'nebula.rxjava-project'
+
 
 configure(subprojects) {
-  apply plugin: 'rxjava-project'
+  apply plugin: 'nebula.rxjava-project'
   apply plugin: 'java'
 
   dependencies {

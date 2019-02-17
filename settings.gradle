@@ -13,6 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-rootProject.name='RxNetty'
+rootProject.name='RxNetty049'
 include 'rxnetty', 'rxnetty-remote-observable', 'rxnetty-contexts', 'rxnetty-examples', 'rxnetty-servo', 'rxnetty-spectator'
 
